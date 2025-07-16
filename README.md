@@ -1,1 +1,1 @@
-juste a lil projet for my own development
+just a lil projet for my own development
