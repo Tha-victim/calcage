@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    background: linear-gradient(-45deg, #4158d0, #e560dc, #ffb374, #ef5f5f, #d848b6);
+    background-size: 400% 400%;
+    animation: bg 12s ease infinite;
+}
+
+@keyframes bg {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    margin: 20%;
+    width: 500px;
+    height: 250px;
+    color: rgba(255, 255, 255, 1);
+    
+}
+ 
+input {
+    background: rgba(255, 255, 255, 0.6);
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0.3);
+    font-size: larger;
+}
+
+button{
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.6);
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0.3);
+    font-size: larger;
+}
+
